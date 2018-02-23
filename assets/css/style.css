@@ -1,0 +1,58 @@
+body {
+	background-color: lightblue;
+}
+
+button {
+	width: 80%;
+	height: 40px;
+	margin: 1px 10%;
+	float: left;
+}
+
+button.answer-choice {
+	display: none;
+}
+
+button:hover {
+	background-color: lightslategray;
+	color: cornsilk;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+
+h1,
+h2,
+h3,
+.question {
+	text-align: center;
+}
+
+.container {
+	width: 33%;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 10px;
+	border: black 2px solid;
+}
+
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	border: lightslategray 2px solid;
+}
+
+.timer {
+	border: red 2px solid;
+	width: 25%;
+	margin: 1px 10%;
+	text-align: center;
+	color: red;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0.5em;
+}
